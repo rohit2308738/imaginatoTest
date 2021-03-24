@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct LoginUser {
+    var created_at:String
+    var userId:String
+    var username : String
+    
+}

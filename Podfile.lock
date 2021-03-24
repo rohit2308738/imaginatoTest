@@ -1,0 +1,22 @@
+PODS:
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (8.0.5):
+    - SwiftMessages/App (= 8.0.5)
+  - SwiftMessages/App (8.0.5)
+
+DEPENDENCIES:
+  - SVProgressHUD (~> 2.2.5)
+  - SwiftMessages (~> 8.0.3)
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: 539fd54a766bf08ec667e90aa141c44b8b8aaa55
+
+PODFILE CHECKSUM: c49d0c7813fcda62d5c9fa72999cedc776ef943b
+
+COCOAPODS: 1.9.3

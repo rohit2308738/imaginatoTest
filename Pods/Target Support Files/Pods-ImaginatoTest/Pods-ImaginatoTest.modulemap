@@ -1,0 +1,6 @@
+framework module Pods_ImaginatoTest {
+  umbrella header "Pods-ImaginatoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

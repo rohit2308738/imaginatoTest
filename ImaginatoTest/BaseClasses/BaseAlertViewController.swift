@@ -29,8 +29,6 @@ class BaseAlertViewController: BaseViewController {
         super.viewDidLoad()
         self.modalPresentationStyle = .overFullScreen
 
-        containerView?.roundCorners(corners: [.topLeft, .topRight],
-                                    radius: 10.0)
         backgroundView.backgroundColor = .black
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self,

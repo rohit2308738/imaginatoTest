@@ -6,9 +6,9 @@
 //  Copyright © 2020 Applify. All rights reserved.
 //
 
-import SwiftMessages
+
 import UIKit
-import SDWebImage
+
 protocol BaseViewControllerProtocol {
     func getViewModel() -> BaseViewModel
     func refreshUI()
