@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImaginatoTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="w-screen-3x" translatesAutoresizingMaskIntoConstraints="NO" id="RgI-UQ-Zlv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ei-sF-FQE">
+                                <rect key="frame" x="20.5" y="342.5" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2lV-od-aTf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIo-JI-JDe">
+                                <rect key="frame" x="20.5" y="413" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9KK-yW-K5r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQP-1h-WtU">
+                                <rect key="frame" x="159.5" y="137" width="95.5" height="43"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MN-if-cTS">
+                                <rect key="frame" x="20.5" y="521" width="373" height="40"/>
+                                <color key="backgroundColor" red="0.74238818880000002" green="0.1675582528" blue="0.15184986589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="22"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bQP-1h-WtU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="4nS-g4-Eqo"/>
+                            <constraint firstItem="RgI-UQ-Zlv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9M8-HZ-0DO"/>
+                            <constraint firstItem="5Ei-sF-FQE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="90%" id="BPh-tt-2da"/>
+                            <constraint firstAttribute="bottom" secondItem="RgI-UQ-Zlv" secondAttribute="bottom" id="BkU-fn-ljT"/>
+                            <constraint firstItem="3MN-if-cTS" firstAttribute="width" secondItem="KIo-JI-JDe" secondAttribute="width" id="PAY-sm-SVI"/>
+                            <constraint firstItem="5Ei-sF-FQE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="80%" id="RPg-Bx-Je3"/>
+                            <constraint firstItem="KIo-JI-JDe" firstAttribute="top" secondItem="5Ei-sF-FQE" secondAttribute="bottom" constant="30.5" id="SBc-c3-Ls9"/>
+                            <constraint firstItem="KIo-JI-JDe" firstAttribute="width" secondItem="5Ei-sF-FQE" secondAttribute="width" id="Uah-OW-tai"/>
+                            <constraint firstItem="3MN-if-cTS" firstAttribute="top" secondItem="KIo-JI-JDe" secondAttribute="bottom" constant="68" id="ZlM-5E-aMm"/>
+                            <constraint firstItem="5Ei-sF-FQE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gSd-U9-3wd"/>
+                            <constraint firstItem="3MN-if-cTS" firstAttribute="centerX" secondItem="KIo-JI-JDe" secondAttribute="centerX" id="h0j-Az-Hke"/>
+                            <constraint firstItem="3MN-if-cTS" firstAttribute="height" secondItem="KIo-JI-JDe" secondAttribute="height" id="h4v-D8-zyO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RgI-UQ-Zlv" secondAttribute="trailing" id="iYy-2q-XEE"/>
+                            <constraint firstItem="KIo-JI-JDe" firstAttribute="height" secondItem="5Ei-sF-FQE" secondAttribute="height" id="pvq-G4-mrp"/>
+                            <constraint firstItem="KIo-JI-JDe" firstAttribute="centerX" secondItem="5Ei-sF-FQE" secondAttribute="centerX" id="uX3-wc-q6J"/>
+                            <constraint firstItem="bQP-1h-WtU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vOX-G2-AOw"/>
+                            <constraint firstItem="RgI-UQ-Zlv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wmM-AI-RBu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="w-screen-3x" width="575" height="1244.3333740234375"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
